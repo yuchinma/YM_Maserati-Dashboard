@@ -54,62 +54,6 @@
 		"oAP": "/dev/content/svg-container.html",
 		"oF": 0
 		},
-	"/dev/content/svg/background.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/background.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground/front/front.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground/front/front.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground/middle/mtn-front-left.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground/middle/mtn-front-left.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground/middle/mtn-front-right.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground/middle/mtn-front-right.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground/middle/orange-mtn.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground/middle/orange-mtn.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground/middle/red-mtn.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground/middle/red-mtn.html",
-		"oF": 0
-		},
 	"/dev/content/svg/moon.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -142,68 +86,13 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/demo-this.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/demo-this-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/fadeIn.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/fadeIn-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/flightPath.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/flightPath-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/listOff.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/listOff-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/space-ship.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/space-ship-min.js",
+		"oAP": "/dev/js/scripts-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
