@@ -1,13 +1,13 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
-// import { sunsetTL } from "./sunset"
+import { initLogoAnimTL } from "./initLogoAnim"
 
 gsap.registerPlugin(GSDevTools);
 
 let mainTL = gsap.timeline();
 
-// mainTL.add(sunsetTL)
+mainTL.add(initLogoAnimTL)
         // .add(wavesTL, "-=2");
 
         // .addLabel("marker")

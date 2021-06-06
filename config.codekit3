@@ -46,6 +46,16 @@
 		"oAP": "/design/Maserati dashboard NEW.sketch",
 		"oF": 0
 		},
+	"/design/maserati-dashboard.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/design/maserati-dashboard.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/dev/content/svg-container.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -54,12 +64,76 @@
 		"oAP": "/dev/content/svg-container.html",
 		"oF": 0
 		},
-	"/dev/content/svg/moon.kit": {
+	"/dev/content/svg/fuel-indicator.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/svg/moon.html",
+		"oAP": "/dev/content/svg/fuel-indicator.html",
+		"oF": 0
+		},
+	"/dev/content/svg/information.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/information.html",
+		"oF": 0
+		},
+	"/dev/content/svg/map.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/map.html",
+		"oF": 0
+		},
+	"/dev/content/svg/maserati-logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/maserati-logo.html",
+		"oF": 0
+		},
+	"/dev/content/svg/music.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/music.html",
+		"oF": 0
+		},
+	"/dev/content/svg/notification.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/notification.html",
+		"oF": 0
+		},
+	"/dev/content/svg/pop-up-window.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/pop-up-window.html",
+		"oF": 0
+		},
+	"/dev/content/svg/prnd.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/prnd.html",
+		"oF": 0
+		},
+	"/dev/content/svg/speedometer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/speedometer.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -86,6 +160,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/initLogoAnim.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/initLogoAnim-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -93,17 +178,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/zoomIn.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/zoomIn-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
