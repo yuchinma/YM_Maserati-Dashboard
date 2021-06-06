@@ -171,6 +171,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/blank.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/blank-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/initLogoAnim.js": {
 		"bF": 0,
 		"ft": 64,
@@ -178,6 +189,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/initLogoAnim-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/prnd.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/prnd-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
