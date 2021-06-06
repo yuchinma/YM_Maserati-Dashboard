@@ -6,6 +6,7 @@ import { initLogoAnimTL } from "./initLogoAnim"
 import { prndTL } from "./prnd"
 import { infoTL } from "./information"
 import { musicTL } from "./music"
+import { notifTL } from "./notification"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -16,7 +17,8 @@ mainTL.add(blankTL)
         .add(prndTL)
         .add(infoTL)
         .addLabel("marker")
-        .add(musicTL);
+        .add(musicTL)
+        .add(notifTL);
 
         mainTL.play("marker");
         // mainTL.play();

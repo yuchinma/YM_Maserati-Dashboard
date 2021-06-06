@@ -1,0 +1,1 @@
+import{gsap}from"gsap";export let notifTL=gsap.timeline();notifTL.from("#album-photo",{alpha:0,scale:0},{duration:1,alpha:1,scale:1,ease:"power4.out"});
