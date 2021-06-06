@@ -23,4 +23,4 @@ initLogoAnimTL.to("#trident-strokes-block-left", {duration: .3, x: "-=50", ease:
         .to("#levante-block-left", {duration: .5, x: "-=150"}, "levante", "-=.7")
         .to("#levante-block-right", {duration: .5, x: "+=150"}, "levante", "-=.7")
 
-        .fromTo("#whole-maserati-logo", {scale: 1}, {duration: 1.5, x: "+=400", y: "-=1000", alpha: 0, scale: 20, ease: "power4.out"}, "+=.2")
+        .fromTo("#whole-maserati-logo", {scale: 1}, {duration: 1.5, x: "+=380", y: "-=1000", alpha: 0, scale: 20, ease: "power4.out"}, "+=.2")
