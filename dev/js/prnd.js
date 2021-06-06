@@ -5,15 +5,16 @@ gsap.registerPlugin(DrawSVGPlugin);
 
 export let prndTL = gsap.timeline();
 
-// gsap.set("#trident-top, #headlight-left, #headlight-right, #whole-maserati-logo", {transformOrigin: "center"});
 gsap.set("#pointer-block", {transformOrigin: "right bottom"});
 
+//prnd btns appear
 prndTL.from("#prnd-trident", {duration: .5, y: "+=50", ease: "back"})
         .from("#p-btn-off", {duration: .5, x: "+=50", y: "+=20", ease: "back"}, "btn")
         .from("#r-btn", {duration: .5, x: "+=10", y: "+=50", ease: "back"}, "btn")
         .from("#n-btn", {duration: .5, x: "-=10", y: "+=50", ease: "back"}, "btn")
         .from("#d-btn-off", {duration: .5, x: "-=50", y: "+=20", ease: "back"}, "btn")
 
+//speed & fuel circle appear, E&F, gradient bars, pointer
         .from("#speed-circle", {duration: .3, x: "-=320", y: "+=400", ease: "none"}, "circle")
         .from("#fuel-circle", {duration: .3, x: "+=230", y: "+100", ease: "none"}, "circle")
         .fromTo("#speed-number", {alpha: 0}, {duration: .3, alpha: 1}, "scale")
@@ -25,6 +26,7 @@ prndTL.from("#prnd-trident", {duration: .5, y: "+=50", ease: "back"})
         .to("#pointer", {duration: .3, alpha: 1}, "pointer")
         .from("#pointer-block", {duration: .5, alpha: 1, scale: 10}, "pointer")
 
+//icons come in, p light on
         .from("#hazard-grey, #direction-light-left-grey, #direction-light-right-grey", {duration: .3, alpha: 0}, "icon")
         .from("#hazard-white, #direction-light-left-white, #direction-light-right-white", {duration: .3, alpha: 0}, "icon")
         .from("#slope-grey, #seatbelt-grey, #beam-light-grey, #car-grey, #auto-grey", {duration: .3, alpha: 0}, "icon")
