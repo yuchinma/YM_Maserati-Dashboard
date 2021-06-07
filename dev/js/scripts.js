@@ -7,6 +7,7 @@ import { prndTL } from "./prnd"
 import { infoTL } from "./information"
 import { musicTL } from "./music"
 import { notifTL } from "./notification"
+import { mapTL } from "./mapReveal"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -16,9 +17,10 @@ mainTL.add(blankTL)
         .add(initLogoAnimTL)
         .add(prndTL)
         .add(infoTL)
-        .addLabel("marker")
         .add(musicTL)
-        .add(notifTL);
+        .add(notifTL)
+        .addLabel("marker")
+        .add(mapTL);
 
         mainTL.play("marker");
         // mainTL.play();
