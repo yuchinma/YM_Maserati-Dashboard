@@ -226,17 +226,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/notification-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/notification-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/notification.js": {
 		"bF": 0,
 		"ft": 64,
@@ -267,6 +256,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/setOff.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/setOff-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

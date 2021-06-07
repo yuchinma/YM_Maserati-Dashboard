@@ -8,6 +8,7 @@ import { infoTL } from "./information"
 import { musicTL } from "./music"
 import { notifTL } from "./notification"
 import { mapTL } from "./mapReveal"
+import { setOffTL } from "./setOff"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -19,8 +20,9 @@ mainTL.add(blankTL)
         .add(infoTL)
         .add(musicTL)
         .add(notifTL)
+        .add(mapTL)
         .addLabel("marker")
-        .add(mapTL);
+        .add(setOffTL);
 
         mainTL.play("marker");
         // mainTL.play();
