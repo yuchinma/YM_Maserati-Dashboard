@@ -5,8 +5,8 @@ export let setOffTL = gsap.timeline();
 gsap.set("#arrow-icon", {y: "+=50"});
 gsap.set("#pop-up-window, #arrow-icon, #yellow-lane", {transformOrigin: "center"});
 
-setOffTL.to("#p-btn-on", {alpha: 0}, "park")
-        .to("#p-btn-off", {alpha: 1}, "park")
+setOffTL.to("#p-btn-on", {alpha: 0}, "drive")
+        .to("#p-btn-off", {alpha: 1}, "drive")
         .to("#d-btn-on", {alpha: 1}, "drive")
         .to("#d-btn-off", {alpha: 0}, "drive")
 
@@ -15,7 +15,7 @@ setOffTL.to("#p-btn-on", {alpha: 0}, "park")
 //set off, go straight, exceed speed limit
         .to("#arrow-icon", {duration: 3.5, y: "-=200", ease: "power2.in"})
         .from("#speed-notif", {duration: 1, alpha: 1, x: "+=300", ease: "power4.out"}, "-=.58")
-        .to("#arrow-icon", {duration: 5.5, y: "-=258.5", ease: "power4.out"}, "-=1")
+        .to("#arrow-icon", {duration: 5.5, y: "-=258.5", ease: "power3.out"}, "-=1")
 
 //turn left, pop up window, slow down, stop
         .to("#arrow-icon", {duration: 1, rotate: -90, ease: "none"}, "-=2.5")

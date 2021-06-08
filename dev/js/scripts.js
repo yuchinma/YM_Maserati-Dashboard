@@ -9,6 +9,7 @@ import { musicTL } from "./music"
 import { notifTL } from "./notification"
 import { mapTL } from "./mapReveal"
 import { setOffTL } from "./setOff"
+import { pointerTL } from "./pointer"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -22,7 +23,8 @@ mainTL.add(blankTL)
         .add(notifTL, "+=.3")
         .add(mapTL)
         .addLabel("marker")
-        .add(setOffTL);
+        .add(setOffTL, "go")
+        .add(pointerTL, "go");
 
         mainTL.play("marker");
         // mainTL.play();
