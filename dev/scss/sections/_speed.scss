@@ -10,7 +10,20 @@
     align-items: center;
     // margin-top: -200px;
 
+    // font-family: univers ;
+
     >div{
-		// border: 1px solid red;
+    // border: 1px solid red;
+
 	}
+}
+#container {
+  position: relative;
+}
+
+#speed-counter {
+  position: absolute;
+  color: pink;
+  bottom: 140px;
+  left: 30px;
 }

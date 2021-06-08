@@ -19,10 +19,10 @@ mainTL.add(blankTL)
         .add(initLogoAnimTL)
         .add(prndTL)
         .add(infoTL)
+        .addLabel("marker")
         .add(musicTL)
         .add(notifTL, "+=.3")
         .add(mapTL)
-        .addLabel("marker")
         .add(setOffTL, "go")
         .add(pointerTL, "go");
 

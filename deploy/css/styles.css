@@ -441,3 +441,23 @@ textarea {
 #svg-container > div svg {
   width: 100%;
 }
+
+#speed {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  position: relative;
+}
+
+#speed-counter {
+  position: absolute;
+  color: pink;
+  bottom: 140px;
+  left: 30px;
+}
