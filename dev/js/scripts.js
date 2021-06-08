@@ -19,7 +19,7 @@ mainTL.add(blankTL)
         .add(prndTL)
         .add(infoTL)
         .add(musicTL)
-        .add(notifTL)
+        .add(notifTL, "+=.3")
         .add(mapTL)
         .addLabel("marker")
         .add(setOffTL);
