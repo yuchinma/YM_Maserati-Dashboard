@@ -22,7 +22,7 @@ prndTL.from("#prnd-trident", {duration: .5, y: "+=50", ease: "back"})
         .from("#fuel-f, #fuel-e", {duration: .2, alpha: 0})
         .from("#speed-bar-color", {duration: 1, drawSVG: 0}, "bar")
         .from("#fuel-bar-grey, #fuel-bar-color", {duration: .5, drawSVG: 0}, "bar")
-        .to("#fuel-bar-color", {duration: .5, drawSVG: "30%"}, "-=.5")
+        .to("#fuel-bar-color", {duration: .5, drawSVG: "20%"}, "-=.5")
         .to("#pointer", {duration: .3, alpha: 1}, "pointer")
         .from("#pointer-block", {duration: .5, alpha: 1, scale: 10}, "pointer")
 

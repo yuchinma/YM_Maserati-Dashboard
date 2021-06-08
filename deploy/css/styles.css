@@ -414,7 +414,6 @@ textarea {
 ============= */
 #svg-container {
   display: grid;
-  grid-template-columns: auto 80% auto;
   grid-template-columns: auto 500px auto;
   grid-template-areas: ". svg-container .";
   height: 100vh;
@@ -449,7 +448,7 @@ textarea {
 
 #speed-counter {
   position: absolute;
-  color: pink;
+  color: white;
   bottom: 178px;
   left: 20px;
 }
