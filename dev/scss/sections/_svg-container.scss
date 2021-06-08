@@ -1,19 +1,27 @@
 #svg-container {
 	display: grid;
 	grid-template-columns: auto 80% auto;
+	grid-template-columns: auto 500px auto;
+
 	grid-template-areas: ". svg-container .";
 	height: 100vh;
 
 	@include md{
-		grid-template-columns: auto 70% auto;
+		// grid-template-columns: auto 70% auto;
+		grid-template-columns: auto 660px auto;
+
 	}
 
 	@include lg{
-		grid-template-columns: auto 60% auto;
+		// grid-template-columns: auto 60% auto;
+		grid-template-columns: auto 700px auto;
+
 	}
 
 	@include xl{
-		grid-template-columns: auto 1200px auto;
+		// grid-template-columns: auto 1200px auto;
+		grid-template-columns: auto 850px auto;
+
 	}
 	>div {
 		display: flex;

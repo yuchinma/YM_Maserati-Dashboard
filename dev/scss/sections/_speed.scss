@@ -1,22 +1,23 @@
-#speed{
-    position: absolute;
-    // border: 1px solid green;
-    height: 100%;
-    width: 100%;
-    top:0;
-    // left:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // margin-top: -200px;
+// #speed{
+//     position: absolute;
+//     // border: 1px solid green;
+//     height: 100%;
+//     width: 100%;
+//     top:0;
+//     // left:0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     // margin-top: -200px;
 
-    // font-family: univers ;
+//     // font-family: univers ;
 
-    >div{
-    // border: 1px solid red;
+//     >div{
+//     // border: 1px solid red;
 
-	}
-}
+// 	}
+// }
+
 #container {
   position: relative;
 }
@@ -24,6 +25,66 @@
 #speed-counter {
   position: absolute;
   color: pink;
-  bottom: 140px;
-  left: 30px;
+  // bottom: 12%;
+  // left: 5%;
+  bottom: 178px;
+  left: 20px;
+
+  #speedTag {
+    font-size: 2em;
+  }
+  #text {
+    font-size: 0.5em;
+    margin-top: -5px;
+  }
+
+  @include md{
+
+    // bottom: 17%;
+    // left: 5%;
+    bottom: 128px;
+    left: 28px;
+    
+    #speedTag{
+      font-size: 2.8em;
+    }
+    #text {
+      font-size: 0.6em;
+    }
+	}
+
+	@include lg{
+
+    // bottom: 17.5%;
+    // left: 5%;
+
+    bottom: 114px;
+    left: 28px;
+    
+    #speedTag{
+      font-size: 2.8em;
+    }
+    #text {
+      font-size: 0.7em;
+      margin-top: -4px;
+    }
+  }
+
+	@include xl{
+
+    // bottom: 9.5%;
+    // left: 5%;
+
+    bottom: 70px;
+    left: 32px;
+    
+    #speedTag{
+      font-size: 4em;
+    }
+    #text {
+      font-size: 0.75em;
+      margin-top: -8px;
+    }
+	}
+
 }

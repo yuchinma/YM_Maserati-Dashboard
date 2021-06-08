@@ -415,22 +415,23 @@ textarea {
 #svg-container {
   display: grid;
   grid-template-columns: auto 80% auto;
+  grid-template-columns: auto 500px auto;
   grid-template-areas: ". svg-container .";
   height: 100vh;
 }
 @media (min-width: 768px) {
   #svg-container {
-    grid-template-columns: auto 70% auto;
+    grid-template-columns: auto 660px auto;
   }
 }
 @media (min-width: 992px) {
   #svg-container {
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 700px auto;
   }
 }
 @media (min-width: 1200px) {
   #svg-container {
-    grid-template-columns: auto 1200px auto;
+    grid-template-columns: auto 850px auto;
   }
 }
 #svg-container > div {
@@ -442,15 +443,6 @@ textarea {
   width: 100%;
 }
 
-#speed {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 #container {
   position: relative;
 }
@@ -458,6 +450,51 @@ textarea {
 #speed-counter {
   position: absolute;
   color: pink;
-  bottom: 140px;
-  left: 30px;
+  bottom: 178px;
+  left: 20px;
+}
+#speed-counter #speedTag {
+  font-size: 2em;
+}
+#speed-counter #text {
+  font-size: 0.5em;
+  margin-top: -5px;
+}
+@media (min-width: 768px) {
+  #speed-counter {
+    bottom: 128px;
+    left: 28px;
+  }
+  #speed-counter #speedTag {
+    font-size: 2.8em;
+  }
+  #speed-counter #text {
+    font-size: 0.6em;
+  }
+}
+@media (min-width: 992px) {
+  #speed-counter {
+    bottom: 114px;
+    left: 28px;
+  }
+  #speed-counter #speedTag {
+    font-size: 2.8em;
+  }
+  #speed-counter #text {
+    font-size: 0.7em;
+    margin-top: -4px;
+  }
+}
+@media (min-width: 1200px) {
+  #speed-counter {
+    bottom: 70px;
+    left: 32px;
+  }
+  #speed-counter #speedTag {
+    font-size: 4em;
+  }
+  #speed-counter #text {
+    font-size: 0.75em;
+    margin-top: -8px;
+  }
 }
