@@ -451,6 +451,7 @@ textarea {
   color: white;
   bottom: 178px;
   left: 20px;
+  font-family: roboto;
 }
 #speed-counter #speedTag {
   font-size: 2em;

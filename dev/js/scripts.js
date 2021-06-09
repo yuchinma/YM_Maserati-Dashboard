@@ -36,7 +36,7 @@ mainTL.add(blankTL)
         .add(notifTL, "+=.3")
         .add(mapTL)
         .add(setOffTL, "go")
-        .add(pointerTL, "go")
+        .add(pointerTL, "go", {onStart: speedCounter})
 
         // mainTL.play("marker");
         mainTL.play();
