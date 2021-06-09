@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
-import $ from "jquery"
+// import $ from "jquery"
 
 import { blankTL } from "./blank"
 import { initLogoAnimTL } from "./initLogoAnim"
@@ -11,17 +11,15 @@ import { notifTL } from "./notification"
 import { mapTL } from "./mapReveal"
 import { setOffTL } from "./setOff"
 import { pointerTL } from "./pointer"
-import { speedCounter } from "./speed";
+import { speedUpTL } from "./speedUp"
 
-// myTL.from("#something",{duration:.05, alpha:0, onStart:speedCounter});
+// // A $( document ).ready() block.
+// $(document).ready(function () {
 
-// A $( document ).ready() block.
-$(document).ready(function () {
-
-    // let numberToCount = document.getElementById("speedTag");
-    // console.log(numberToCount);
-    speedCounter();
-});
+//     // let numberToCount = document.getElementById("speedTag");
+//     // console.log(numberToCount);
+//     speedCounter();
+// });
 
 gsap.registerPlugin(GSDevTools);
 
@@ -31,15 +29,16 @@ mainTL.add(blankTL)
         .add(initLogoAnimTL)
         .add(prndTL)
         .add(infoTL)
-        // .addLabel("marker")
         .add(musicTL)
         .add(notifTL, "+=.3")
         .add(mapTL)
+        .addLabel("marker")
         .add(setOffTL, "go")
-        .add(pointerTL, "go", {onStart: speedCounter})
+        .add(pointerTL, "go")
+        .add(speedUpTL, "go");
 
-        // mainTL.play("marker");
-        mainTL.play();
+        mainTL.play("marker");
+        // mainTL.play();
 
 // console.log(numberThing);
 

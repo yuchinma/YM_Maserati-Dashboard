@@ -6,6 +6,9 @@ gsap.registerPlugin(DrawSVGPlugin);
 export let prndTL = gsap.timeline();
 
 gsap.set("#pointer-block", {transformOrigin: "right bottom"});
+gsap.set("#speed-count", {x: "+=5"});
+gsap.set("#number-00", {x: "+=1.2"});
+gsap.set("#km-h", {x: "-=1.5"});
 
 //prnd btns appear
 prndTL.from("#prnd-trident", {duration: .5, y: "+=50", ease: "back"})
@@ -25,6 +28,7 @@ prndTL.from("#prnd-trident", {duration: .5, y: "+=50", ease: "back"})
         .to("#fuel-bar-color", {duration: .5, drawSVG: "20%"}, "-=.5")
         .to("#pointer", {duration: .3, alpha: 1}, "pointer")
         .from("#pointer-block", {duration: .5, alpha: 1, scale: 10}, "pointer")
+        .from("#speed-counter", {alpha: 0})
 
 //icons come in, p light on
         .from("#hazard-grey, #direction-light-left-grey, #direction-light-right-grey", {duration: .4, alpha: 0}, "icon")
