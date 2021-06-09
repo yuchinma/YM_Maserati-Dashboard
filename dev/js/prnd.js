@@ -9,10 +9,10 @@ gsap.set("#pointer-block", {transformOrigin: "right bottom"});
 
 //prnd btns appear
 prndTL.from("#prnd-trident", {duration: .5, y: "+=50", ease: "back"})
-        .from("#p-btn-off", {duration: .5, x: "+=50", y: "+=20", ease: "back"}, "btn")
-        .from("#r-btn", {duration: .5, x: "+=10", y: "+=50", ease: "back"}, "btn")
-        .from("#n-btn", {duration: .5, x: "-=10", y: "+=50", ease: "back"}, "btn")
-        .from("#d-btn-off", {duration: .5, x: "-=50", y: "+=20", ease: "back"}, "btn")
+        .from("#p-btn-off", {duration: .5, alpha: 1, x: "+=50", y: "+=20", ease: "back"}, "btn")
+        .from("#r-btn", {duration: .5, alpha: 1, x: "+=10", y: "+=50", ease: "back"}, "btn")
+        .from("#n-btn", {duration: .5, alpha: 1, x: "-=10", y: "+=50", ease: "back"}, "btn")
+        .from("#d-btn-off", {duration: .5, alpha: 1, x: "-=50", y: "+=20", ease: "back"}, "btn")
 
 //speed & fuel circle appear, E&F, gradient bars, pointer
         .from("#speed-circle", {duration: .3, x: "-=320", y: "+=400", ease: "none"}, "circle")

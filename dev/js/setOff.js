@@ -15,7 +15,7 @@ setOffTL.to("#p-btn-on", {alpha: 0}, "drive")
 //set off, go straight, exceed speed limit
         .to("#arrow-icon", {duration: 3.5, y: "-=200", ease: "power2.in"})
         .from("#speed-notif", {duration: 1, alpha: 1, x: "+=300", ease: "power4.out"}, "-=.58")
-        .to("#arrow-icon", {duration: 5.5, y: "-=258.5", ease: "power3.out"}, "-=1")
+        .to("#arrow-icon", {duration: 5.5, y: "-=258", ease: "power3.out"}, "-=1")
 
 //turn left, pop up window, slow down, stop
         .to("#arrow-icon", {duration: 1, rotate: -90, ease: "none"}, "-=2.5")
