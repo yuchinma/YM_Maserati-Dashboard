@@ -29,12 +29,14 @@
   // left: 5%;
   bottom: 178px;
   left: 20px;
-  font-family: roboto;
+  font-family: 'roboto';
 
   #speedTag {
+    font-weight: 400;
     font-size: 2em;
   }
   #text {
+    font-weight: 500;
     font-size: 0.5em;
     margin-top: -5px;
   }

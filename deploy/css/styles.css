@@ -451,12 +451,14 @@ textarea {
   color: white;
   bottom: 178px;
   left: 20px;
-  font-family: roboto;
+  font-family: "roboto";
 }
 #speed-counter #speedTag {
+  font-weight: 400;
   font-size: 2em;
 }
 #speed-counter #text {
+  font-weight: 500;
   font-size: 0.5em;
   margin-top: -5px;
 }
