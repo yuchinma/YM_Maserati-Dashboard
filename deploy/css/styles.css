@@ -500,3 +500,7 @@ textarea {
     margin-top: -8px;
   }
 }
+
+#maserati-logo-btn {
+  cursor: pointer;
+}

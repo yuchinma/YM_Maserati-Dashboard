@@ -8,7 +8,7 @@ pointerTL.to("#pointer", {duration: 4.5, rotation: -50, ease: "power4.out", onSt
         .to("#pointer", {duration: 5, rotation: -25, ease: "power1.inOut", onStart: startTimer2}, "-=1.15")
         .to("#pointer", {duration: 1, rotation: -26, ease: "power1.inOut"})
         .to("#pointer", {duration: 1, rotation: -24, ease: "power1.inOut", yoyo: true, repeat: 2})
-        .to("#pointer", {duration: 5.5, rotation: 0, ease: "power2.out"}, "-=.5")
+        .to("#pointer", {duration: 5.5, rotation: 0, ease: "power2.out", onStart: startTimer3}, "-=.5")
         .to("#direction-light-left-white", {alpha: 1}, "-=13.4")
         .to("#direction-light-left-white", {alpha: 0}, "-=13.1")
         .to("#direction-light-left-white", {alpha: 1}, "-=12.8")
@@ -48,7 +48,7 @@ function speedCounter(){
 }
 
 //counter 70mph to 30mph
-var counterSpeed2 = 50;
+var counterSpeed2 = 100;
 var topSpeed2 = 30;
 var speedNumber2 = 70;
 var myVar2;
@@ -60,8 +60,8 @@ function startTimer2(){
 
 function speedCounter2(){
         // console.log("counter");
-        if (speedNumber2 < topSpeed2) {
-                speedNumber2++;
+        if (speedNumber2 > topSpeed2) {
+                speedNumber2--;
                 document.getElementById("speedTag").innerHTML = speedNumber2;
         } else {
                 clearInterval(myVar2);
@@ -71,24 +71,24 @@ function speedCounter2(){
 }
 
 //counter 30mph to 0mph
-// var counterSpeed = 50;
-// var topSpeed = 70;
-// var speedNumber = 0;
-// var myVar;
+var counterSpeed3 = 100;
+var topSpeed3 = 0;
+var speedNumber3 = 30;
+var myVar3;
 
-// function startTimer(){
+function startTimer3(){
 
-//         myVar = setInterval(speedCounter, counterSpeed);
-// }
+        myVar3 = setInterval(speedCounter3, counterSpeed3);
+}
 
-// function speedCounter(){
-//         // console.log("counter");
-//         if (speedNumber < topSpeed) {
-//                 speedNumber++;
-//                 document.getElementById("speedTag").innerHTML = speedNumber;
-//         } else {
-//                 clearInterval(myVar);
-//         }
-//         return speedNumber;
+function speedCounter3(){
+        // console.log("counter");
+        if (speedNumber3 > topSpeed3) {
+                speedNumber3--;
+                document.getElementById("speedTag").innerHTML = speedNumber3;
+        } else {
+                clearInterval(myVar3);
+        }
+        return speedNumber3;
 
-// }
+}

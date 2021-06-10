@@ -67,6 +67,14 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/dev/content/audio.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/audio.html",
+		"oF": 0
+		},
 	"/dev/content/speed.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -81,6 +89,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/svg-container.html",
+		"oF": 0
+		},
+	"/dev/content/svg/audio-btn.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/audio-btn.html",
 		"oF": 0
 		},
 	"/dev/content/svg/fuel-indicator.kit": {
@@ -178,6 +194,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/audioBtn.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/audioBtn-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/blank.js": {
 		"bF": 0,
@@ -449,6 +476,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_audio-btn.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_audio-btn.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_speed.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -531,6 +571,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/jquery/dist/jquery-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
