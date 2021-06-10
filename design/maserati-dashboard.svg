@@ -115,7 +115,7 @@
             </g>
             <g id="song-bar" transform="translate(16.541000, 81.848000)">
                 <polygon id="song-grey-bar" fill="#343434" points="2.84217094e-14 3.066 190.909 3.066 190.909 0 2.84217094e-14 0"></polygon>
-                <polygon id="song-white-bar" fill="#FEFEFE" points="0 3.066 128.363 3.066 128.363 0 0 0"></polygon>
+                <polygon id="song-white-bar" fill="#FEFEFE" points="0 3.066 190.909 3.066 190.909 0 0 0"></polygon>
             </g>
             <g id="song-info" transform="translate(95.023400, 15.036200)" fill="#FEFEFE">
                 <g id="ed-sheeran" transform="translate(-0.000000, 24.798500)">

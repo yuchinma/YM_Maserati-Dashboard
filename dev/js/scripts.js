@@ -2,36 +2,34 @@ import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 // import $ from "jquery"
 
-import { blankTL } from "./blank"
 import { initLogoAnimTL } from "./initLogoAnim"
 import { prndTL } from "./prnd"
 import { infoTL } from "./information"
 import { musicTL } from "./music"
+import { musicPlayTL } from "./musicPlay"
 import { notifTL } from "./notification"
 import { mapTL } from "./mapReveal"
 import { setOffTL } from "./setOff"
 import { pointerTL } from "./pointer"
-import { speedUpTL } from "./speedUp"
 
 
 gsap.registerPlugin(GSDevTools);
 
 let mainTL = gsap.timeline();
 
-mainTL.add(blankTL)
-        .add(initLogoAnimTL)
+mainTL.add(initLogoAnimTL)
         .add(prndTL)
         .add(infoTL)
-        .addLabel("marker")
+        // .addLabel("marker")
         .add(musicTL)
         .add(notifTL, "+=.3")
         .add(mapTL)
         .add(setOffTL, "go")
         .add(pointerTL, "go")
-        .add(speedUpTL, "go");
+        .add(musicPlayTL, "-=25");
 
-        mainTL.play("marker");
-        // mainTL.play();
+        // mainTL.play("marker");
+        mainTL.play();
 
 // console.log(numberThing);
 

@@ -4,8 +4,8 @@ export let pointerTL = gsap.timeline();
 
 // gsap.set("#pop-up-window, #arrow-icon, #yellow-lane", {transformOrigin: "center"});
 
-pointerTL.to("#pointer", {duration: 4.5, rotation: -50, ease: "power4.out", onStart: startTimer}, "+=1.1")
-        .to("#pointer", {duration: 5, rotation: -25, ease: "power1.inOut", onStart: startTimer2}, "-=1.15")
+pointerTL.to("#pointer", {duration: 5, rotation: -50, ease: "power4.out", onStart: startTimer}, "+=1.6")
+        .to("#pointer", {duration: 5, rotation: -25, ease: "power1.inOut", onStart: startTimer2}, "-=1.8")
         .to("#pointer", {duration: 1, rotation: -26, ease: "power1.inOut"})
         .to("#pointer", {duration: 1, rotation: -24, ease: "power1.inOut", yoyo: true, repeat: 2})
         .to("#pointer", {duration: 5.5, rotation: 0, ease: "power2.out", onStart: startTimer3}, "-=.5")
@@ -71,7 +71,7 @@ function speedCounter2(){
 }
 
 //counter 30mph to 0mph
-var counterSpeed3 = 100;
+var counterSpeed3 = 130;
 var topSpeed3 = 0;
 var speedNumber3 = 30;
 var myVar3;
