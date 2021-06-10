@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/music/Ed-Sheeran-Afterglow.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/music/Ed-Sheeran-Afterglow.mp3",
+		"oF": 0
+		},
 	"/deploy/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -89,14 +97,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/svg-container.html",
-		"oF": 0
-		},
-	"/dev/content/svg/audio-btn.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/audio-btn.html",
 		"oF": 0
 		},
 	"/dev/content/svg/fuel-indicator.kit": {
@@ -194,17 +194,6 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
-		},
-	"/dev/js/audioBtn.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/audioBtn-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/dev/js/blank.js": {
 		"bF": 0,
@@ -376,14 +365,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
-		},
-	"/dev/scss/base/univers/UniversLTStd.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/base/univers/UniversLTStd.otf",
-		"oF": 0
 		},
 	"/dev/scss/components/_buttons.scss": {
 		"aP": 0,

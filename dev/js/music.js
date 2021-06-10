@@ -4,6 +4,7 @@ export let musicTL = gsap.timeline();
 
 gsap.set("#album-photo", {transformOrigin: "center"});
 gsap.set("#song-white-bar", {transformOrigin: "left center"});
+gsap.set("#pause", {y: "-=8"});
 
 musicTL.from("#album-photo", {duration: .8, alpha: 0, scale: 0, ease: "power4.out"})
         .from("#song-info", {duration: .5, x: "-=150", ease: "power4.out"})
