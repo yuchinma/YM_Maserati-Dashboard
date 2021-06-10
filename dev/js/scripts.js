@@ -18,15 +18,15 @@ gsap.registerPlugin(GSDevTools);
 let mainTL = gsap.timeline();
 
 mainTL.add(initLogoAnimTL)
-        .add(prndTL)
+        .add(prndTL, "+=.6")
         .add(infoTL)
-        // .addLabel("marker")
         .add(musicTL)
         .add(notifTL, "+=.3")
-        .add(mapTL)
+        .add(mapTL, "-=.6")
         .add(setOffTL, "go")
         .add(pointerTL, "go")
         .add(musicPlayTL, "-=25");
+        // .addLabel("marker")
 
         // mainTL.play("marker");
         mainTL.play();
